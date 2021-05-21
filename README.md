@@ -10,13 +10,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](screenshot-mobile.jpg)
-![](screenshotdesktop.jpg)
+![mobile](/screenshot-mobile.jpg)
+![desktop](/screenshotdesktop.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live ]( https://hossam-khalaf.github.io/stats-card-component/)
 
 
 ### Built with
