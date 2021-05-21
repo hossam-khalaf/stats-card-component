@@ -25,10 +25,14 @@ body {
 	color: var(--White);
 	font: size 15px;
 	font-family: 'Inter', sans-serif;
+	line-height: 1.6;
+	display: grid;
+	place-items: center;
 }
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 /* Card */
@@ -51,6 +55,7 @@ img {
 		),
 		url(./images/image-header-mobile.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* Card Content */
@@ -97,6 +102,53 @@ img {
 	margin-bottom: 10px;
 	font-size: 1.3rem;
 	font-weight: 700;
+}
+
+/* Bigger screens */
+
+@media (min-width: 768px) {
+	.card {
+		background-color: var(--Dark-desaturated-blue);
+		border-radius: 10px;
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 0;
+	}
+
+	/* Card Header */
+
+	.card-header {
+		height: auto;
+		background: linear-gradient(
+				0deg,
+				hsla(277, 64%, 61%, 0.6),
+				hsla(277, 64%, 61%, 0.6)
+			),
+			url(./images/image-header-desktop.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		flex: 1 1 100%;
+	}
+
+	/* /* Card Content */
+	.card-content {
+		text-align: left;
+		padding: 50px;
+		margin-bottom: 20px;
+		font-family: 'Inter', sans-serif;
+	}
+
+	/* Stats. */
+	.stats {
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-top: 4rem;
+	}
+
+	.row {
+		margin-right: 5vw;
+		align-items: flex-start;
+	}
 }
 
 /* Attribution */
