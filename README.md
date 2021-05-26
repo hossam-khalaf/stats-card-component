@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution ](https://www.frontendmentor.io/solutions/semantic-html5-markup-css-custom-properties-flexbox-css-grid-IuoVbgvCdO)
 - Live Site URL: [live ]( https://hossam-khalaf.github.io/stats-card-component/)
 
 
