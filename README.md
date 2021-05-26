@@ -10,8 +10,8 @@ Users should be able to:
 
 ### Screenshots
 
-![mobile](/screenshot-mobile.jpg)
-![desktop](/screenshotdesktop.jpg)
+![mobile](https://github.com/hossam-khalaf/stats-card-component/blob/main/screenshot-mobile.png)
+![desktop](https://github.com/hossam-khalaf/stats-card-component/blob/main/screenshotdesktop.png)
 
 ### Links
 
